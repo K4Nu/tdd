@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Create Category</h1>
+ <form method="POST" enctype="multipart/form-data">
+    {% csrf_token%}
+    {{form}}
+     <button type="submit">Submit</button>
+</form>
+</body>
+</html>
